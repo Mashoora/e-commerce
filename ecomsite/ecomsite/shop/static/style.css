@@ -1,0 +1,13 @@
+body{
+     background-color: honeydew;
+}
+
+.card-text{
+    color: lightcoral;
+    font-weight: 800;
+}
+
+.card-title
+{
+    font-weight: 900;
+}

@@ -1,0 +1,15 @@
+<script src="" async defer></script>
+
+        {% block content %}
+            <div class="form-group">
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button class="btn btn-secondary"> Register </button>
+                </form>
+            </div>
+
+        {% endblock %}
+
+    </body>
+</html>
